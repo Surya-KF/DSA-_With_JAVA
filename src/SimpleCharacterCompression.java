@@ -24,3 +24,4 @@ public class SimpleCharacterCompression {
         return result;
     }
 }
+// final
