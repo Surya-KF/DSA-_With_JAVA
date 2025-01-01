@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Solution {
+class MergeString {
     public String mergeA(String word1, String word2) {
         StringBuilder result = new StringBuilder();
         for(int i=0; i<word1.length()|| i<word2.length();i++){
@@ -20,10 +20,8 @@ class Solution {
         String s1 = sc.nextLine();
         String s2 = sc.nextLine();
 
-        Solution solution = new Solution();
-        System.out.println(solution.mergeA(String s1, String s2));
-
-        return0;
+        MergeString mergeString = new MergeString();
+        System.out.println(mergeString.mergeA(s1,s2));
 
         sc.close();
     }
